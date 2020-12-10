@@ -12,10 +12,10 @@ class Conexao {
 
     public function Connect() {
         try {
-            $this->host = "crud.cic8evnfkvhg.us-east-1.rds.amazonaws.com";
-            $this->user = "eloisaadm";
-            $this->pass = "Elo!CRUD2020";
-            $this->base = "lojinhacomics";
+            $this->host = "";
+            $this->user = "";
+            $this->pass = "";
+            $this->base = "";
 
             $parametros = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8");
 
